@@ -1,0 +1,121 @@
+.hero,
+#footer {
+    background-color: #F7C8E0;
+
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+h1 {
+    color: #95BDFF;
+}
+
+#main {
+    color: #95BDFF;
+    font-family: 'Pacifico', cursive;
+
+
+}
+hr {
+    border: dotted #95BDFF 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 10px auto;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+strong {
+    color: #95BDFF;
+}
+
+.hero p {
+    color: #95BDFF;
+}
+
+.hero p span {
+    text-decoration: underline;
+}
+
+.hero .nav-pills .nav-item .nav-link {
+    color: #95BDFF;
+}
+
+
+
+.profile-img img {
+    border-radius: 50%;
+    border: 10px solid #DFFFD8;
+    height: 250px;
+
+}
+
+.project-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#card {
+    height: 450px;
+    width: 250px;
+    background-color: #DFFFD8;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+#card .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#card .btn {
+    margin: 5px;
+    width: 100px;
+}
+
+.btn-primary {
+    background-color: #95BDFF;
+    border: #95BDFF;
+}
+
+.btn-outline-primary {
+    color: #95BDFF;
+    border: #95BDFF;
+
+}
+
+#about h1 {
+    color: #95BDFF;
+}
+
+.btn-success {
+    background-color: #95BDFF;
+    border: #95BDFF;
+}
+
+
+/* @media (max-width: 1250px) {
+    .project-container{
+      
+      flex-direction: column;
+      
+    }
+  } */
