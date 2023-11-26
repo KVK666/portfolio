@@ -110,6 +110,14 @@ strong {
     background-color: #95BDFF;
     border: #95BDFF;
 }
+.header-nav {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.nav-pills {
+    flex-wrap: nowrap;
+}
 
 
 /* @media (max-width: 1250px) {
